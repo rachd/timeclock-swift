@@ -42,9 +42,9 @@ class TimeTests: XCTestCase {
     }
     
     func testRollOverHour() {
-        time.hour = 12
+        time.hour = 23
         let result = time.addHour()
-        XCTAssertEqual(result, 1)
+        XCTAssertEqual(result, 0)
     }
     
     func testInitMinutes() {

@@ -23,8 +23,8 @@ class ViewControllerTests: XCTestCase {
         super.tearDown()
     }
 
-    func testAddTimes() {
-        
+    func testFiveDays() {
+
     }
 
 }

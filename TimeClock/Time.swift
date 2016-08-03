@@ -15,7 +15,7 @@ class Time: NSObject {
     
     override init() {
         minute = 1
-        hour = 1
+        hour = 0
         super.init()
     }
     
@@ -32,8 +32,8 @@ class Time: NSObject {
     
     func addHour() -> Int {
         hour += 1
-        if (hour == 13) {
-            hour = 1
+        if (hour == 24) {
+            hour = 0
         }
         return hour
     }
