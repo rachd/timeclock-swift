@@ -14,8 +14,14 @@ class Time: NSObject {
     var hour : Int
     
     override init() {
-        minute = 0
+        minute = 1
         hour = 1
+        super.init()
+    }
+    
+    init(min: Int, hr: Int) {
+        minute = min
+        hour = hr
         super.init()
     }
     

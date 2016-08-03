@@ -35,16 +35,26 @@ class TimeTests: XCTestCase {
         XCTAssertEqual(result, 2)
     }
     
-    func rollOverMinute() {
+    func testRollOverMinute() {
         time.minute = 59
         let result = time.addMinute()
         XCTAssertEqual(result, 0)
     }
     
-    func rollOverHour() {
+    func testRollOverHour() {
         time.hour = 12
         let result = time.addHour()
         XCTAssertEqual(result, 1)
+    }
+    
+    func testInitMinutes() {
+        let testTime = Time(min: 5, hr: 10)
+        XCTAssertEqual(testTime.minute, 5)
+    }
+    
+    func testInitHour() {
+        let testTime = Time(min: 5, hr: 10)
+        XCTAssertEqual(testTime.hour, 10)
     }
 
 }

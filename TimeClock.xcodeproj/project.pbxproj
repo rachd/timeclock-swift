@@ -16,6 +16,7 @@
 		CC14B3AD1D4C4673000FE767 /* TimeClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC14B3AC1D4C4673000FE767 /* TimeClockUITests.swift */; };
 		CC14B3BB1D4C473A000FE767 /* TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC14B3BA1D4C473A000FE767 /* TimeTests.swift */; };
 		CC14B3BD1D4C4771000FE767 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC14B3BC1D4C4771000FE767 /* Time.swift */; };
+		CC14B3BF1D4E50B7000FE767 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC14B3BE1D4E50B7000FE767 /* ViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CC14B3AE1D4C4673000FE767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC14B3BA1D4C473A000FE767 /* TimeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTests.swift; sourceTree = "<group>"; };
 		CC14B3BC1D4C4771000FE767 /* Time.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		CC14B3BE1D4E50B7000FE767 /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			children = (
 				CC14B3A11D4C4673000FE767 /* TimeClockTests.swift */,
 				CC14B3BA1D4C473A000FE767 /* TimeTests.swift */,
+				CC14B3BE1D4E50B7000FE767 /* ViewControllerTests.swift */,
 				CC14B3A31D4C4673000FE767 /* Info.plist */,
 			);
 			path = TimeClockTests;
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC14B3BF1D4E50B7000FE767 /* ViewControllerTests.swift in Sources */,
 				CC14B3BB1D4C473A000FE767 /* TimeTests.swift in Sources */,
 				CC14B3A21D4C4673000FE767 /* TimeClockTests.swift in Sources */,
 			);
